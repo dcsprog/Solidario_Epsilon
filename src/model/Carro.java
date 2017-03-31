@@ -6,8 +6,6 @@ public class Carro {
         
     }
 
-	
-    
     
     public Carro(int idCarro, String marca, String modelo, int cv, int cc, int lugares, String matricula,
 			String combustivel, String primeiroRegisto, int kmsInicial, boolean estadoCarro) {
@@ -26,8 +24,6 @@ public class Carro {
 	}
 
 
-
-
 	private int idCarro;
     private String marca;
     private String modelo;
@@ -44,90 +40,53 @@ public class Carro {
 	}
 
 
-
-
 	public void setIdCarro(int idCarro) {
 		this.idCarro = idCarro;
 	}
-
-
-
 
 	public String getMarca() {
 		return marca;
 	}
 
-
-
-
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-
-
-
 
 	public String getModelo() {
 		return modelo;
 	}
 
-
-
-
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
-
-
-
 
 	public int getCv() {
 		return cv;
 	}
 
-
-
-
 	public void setCv(int cv) {
 		this.cv = cv;
 	}
-
-
-
 
 	public int getCc() {
 		return cc;
 	}
 
-
-
-
 	public void setCc(int cc) {
 		this.cc = cc;
 	}
-
-
-
 
 	public int getLugares() {
 		return lugares;
 	}
 
-
-
-
 	public void setLugares(int lugares) {
 		this.lugares = lugares;
 	}
 
-
-
-
 	public String getMatricula() {
 		return matricula;
 	}
-
-
 
 
 	public void setMatricula(String matricula) {
@@ -135,13 +94,9 @@ public class Carro {
 	}
 
 
-
-
 	public String getCombustivel() {
 		return combustivel;
 	}
-
-
 
 
 	public void setCombustivel(String combustivel) {
@@ -149,13 +104,9 @@ public class Carro {
 	}
 
 
-
-
 	public String getPrimeiroRegisto() {
 		return primeiroRegisto;
 	}
-
-
 
 
 	public void setPrimeiroRegisto(String primeiroRegisto) {
@@ -163,13 +114,9 @@ public class Carro {
 	}
 
 
-
-
 	public int getKmsInicial() {
 		return kmsInicial;
 	}
-
-
 
 
 	public void setKmsInicial(int kmsInicial) {
@@ -177,13 +124,9 @@ public class Carro {
 	}
 
 
-
-
 	public boolean isEstadoCarro() {
 		return estadoCarro;
 	}
-
-
 
 
 	public void setEstadoCarro(boolean estadoCarro) {

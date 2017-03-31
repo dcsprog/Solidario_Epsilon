@@ -1,5 +1,7 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Reparar {
 
 	public Reparar(){
@@ -8,8 +10,8 @@ public class Reparar {
 	}
 	
 	
-	public Reparar(int idReparacao, Carro automovel, Peca pecasTirada, Peca pecasIntroduzida, String dataInicio,
-			String dataFim, double custoMaoObra) {
+	public Reparar(int idReparacao, Carro automovel, ArrayList<Peca> pecasTirada, ArrayList<Peca> pecasIntroduzida,
+			String dataInicio, String dataFim, double custoMaoObra) {
 		super();
 		this.idReparacao = idReparacao;
 		Automovel = automovel;
@@ -19,13 +21,11 @@ public class Reparar {
 		this.dataFim = dataFim;
 		this.custoMaoObra = custoMaoObra;
 	}
-	
-	
-	
+
 	private int idReparacao;
     private Carro Automovel;
-    private Peca pecasTirada;
-    private Peca pecasIntroduzida;
+    private ArrayList<Peca> pecasTirada;
+    private ArrayList<Peca> pecasIntroduzida;
     private String dataInicio;
     private String dataFim;
     private double custoMaoObra;
@@ -51,22 +51,22 @@ public class Reparar {
 	}
 
 
-	public Peca getPecasTirada() {
+	public ArrayList<Peca> getPecasTirada() {
 		return pecasTirada;
 	}
 
 
-	public void setPecasTirada(Peca pecasTirada) {
+	public void setPecasTirada(ArrayList<Peca> pecasTirada) {
 		this.pecasTirada = pecasTirada;
 	}
 
 
-	public Peca getPecasIntroduzida() {
+	public ArrayList<Peca> getPecasIntroduzida() {
 		return pecasIntroduzida;
 	}
 
 
-	public void setPecasIntroduzida(Peca pecasIntroduzida) {
+	public void setPecasIntroduzida(ArrayList<Peca> pecasIntroduzida) {
 		this.pecasIntroduzida = pecasIntroduzida;
 	}
 
@@ -99,7 +99,7 @@ public class Reparar {
 	public void setCustoMaoObra(double custoMaoObra) {
 		this.custoMaoObra = custoMaoObra;
 	}
-	
-	
     
+    
+	
 }
