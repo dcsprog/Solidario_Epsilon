@@ -39,7 +39,9 @@ public class ControllerCarro {
 			System.out.println("\t\t Dados do carro\n\n");
 			System.out.print("Marca: "+c.getMarca()+"\n");
 			System.out.print("Modelo: "+c.getModelo()+"\n");
-			System.out.print("Cilindrada: "+c.getCv()+"\n");
+			System.out.print("Cavalos: "+c.getCv()+"\n");
+			System.out.print("Cilindrada: "+c.getCc()+"\n");
+			System.out.print("Lugares: "+c.getLugares()+"\n");
 			System.out.print("Matricula: "+c.getMatricula()+"\n");
 			System.out.print("Ano: "+c.getPrimeiroRegisto()+"\n");
 			System.out.print("Combustivel: "+c.getCombustivel()+"\n");
